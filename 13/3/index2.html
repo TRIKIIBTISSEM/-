@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html dir="rtl" >
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title> niveau1 </title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Scheherazade&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <audio id="bravo">
+        <source src="audio/bravo.mp3">
+    </audio>
+    <audio id="faux">
+        <source src="audio/faux.mp3">
+    </audio>
+    <div class="exercice">
+        <div id="headline">
+            <img id="logo" src="image/Layer-3.png">
+            <p>المركز العربي للخدمات التربوية- كندا</p>
+            <div class="closn">
+                <div id="Al" onclick="myFunc('germany')">Al</div>
+                <div id="Tr" onclick="myFunc('turkish')">Tr</div>
+                <div id="Fr" onclick="myFunc('français')">Fr</div>
+                <div id="En" onclick="myFunc('English')">En</div>
+            </div>
+        </div>
+
+        <header>
+            <div class="question">
+                <div id="a"> الْأَسَاس:الرَّوْضَة </div>
+                <div id="b">حرف (<div id="ltr">&nbsp;ش&nbsp;</div>) </div>
+                <div id="c" >   ص 57     </div>
+            </div>
+        </header>
+        <main>
+
+            <div class="quest">  3 . أَضْغَطُ عَلَى الشجَرَة: </div>
+            <div class="traduction">
+                <div>3 . Je clique sur l'arbre:</div>
+                <div id="English">3 . I click on the tree :</div>
+                <div id="français">3 . Je clique sur l'arbre :</div>
+                <div id="turkish">3 . Ağaca tıklıyorum :</div>
+                <div id="germany">3 . Ich klicke auf den Baum :</div>
+            </div>
+            <div  class="part">
+            
+            <div class="ligne2">
+                <div class="image1" id="let1"  onclick="changeColor('let1');"></div>
+                <div class="image2" id="let2"  onclick="changeColor('let2');"></div>
+                <div class="image3" id="let3"  onclick="changeColor('let3');"></div>
+                <div class="image4" id="let4"  onclick="changeColor('let4');"></div>
+            </div>
+            </div>
+            
+           
+            <div class="right">
+
+                <div class="justifier"   onclick='verification()'>أتأكّد</div>
+            </div>
+
+            <!---->
+        </main>
+    </div>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+    <script src="app2.js"></script>
+</body>
+
+</html>

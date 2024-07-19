@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html dir="rtl" >
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title> الرَّوْضَة </title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Scheherazade&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <audio id="bravo">
+        <source src="audio/bravo.mp3">
+    </audio>
+    <audio id="faux">
+        <source src="audio/faux.mp3">
+    </audio>
+    <div class="exercice">
+        <div id="headline">
+            <img id="logo" src="image/Layer-3.png">
+            <p>المركز العربي للخدمات التربوية- كندا</p>
+            <div class="closn">
+                <div id="Al" onclick="myFunc('germany')">Al</div>
+                <div id="Tr" onclick="myFunc('turkish')">Tr</div>
+                <div id="Fr" onclick="myFunc('français')">Fr</div>
+                <div id="En" onclick="myFunc('English')">En</div>
+            </div>
+        </div>
+
+        <header>
+            <div class="question">
+                <div id="a"> الْأَسَاس:الرَّوْضَة </div>
+                <div id="b">حرف (<div id="ltr">&nbsp;و&nbsp;</div>) </div>
+                <div id="c" >   ص 113     </div>
+            </div>
+        </header>
+        <main>
+
+            <div class="quest">2 . أَضْغَطُ عَلَى الصُّورَةِ الَّتِي أَسْمَعُ اسْمَهَا : </div>
+            <div class="traduction">
+                <div>2 . Je clique sur l'image dont j'entends son nom :</div>
+                <div id="English">2 . I click on the image whose name I hear :</div>
+                <div id="français">2 . Je clique sur l'image dont j'entends le nom :</div>
+                <div id="turkish">2 . Adını duyduğum resme tıklıyorum :</div>
+                <div id="germany">2 . Ich klicke auf das Bild, dessen Namen ich höre :</div>
+            </div>
+            <div  class="part">
+            <div class="ligne1">
+                <audio id='aud1'>
+                    <source src="audio/raquette.mp3" type="audio/mp3">
+                </audio>
+                <div id="ecouteur"></div>
+                <div id="carreau">مِضْرَبٌ</div>
+            </div>
+            <div class="ligne2">
+                <div class="image1" id="let1"  onclick="changeColor('let1');"></div>
+                <div class="image2" id="let2"  onclick="changeColor('let2');"></div>
+                <div class="image3" id="let3"  onclick="changeColor('let3');"></div>
+            </div>
+            </div>
+            
+           
+            <div class="right">
+
+                <div class="justifier"   onclick='verification()'>أتأكّد</div>
+            </div>
+
+            <!---->
+        </main>
+    </div>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+    <script src="app3.js"></script>
+</body>
+
+</html>

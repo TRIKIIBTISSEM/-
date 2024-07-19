@@ -1,0 +1,580 @@
+html,body{
+    height:100%;
+    padding:0;
+    margin: auto;;
+   }
+
+body > img{
+        position: absolute;
+        top: 0;
+        width:5%;  
+    }
+
+#logo {
+        width: 3%;
+        height: 60%;
+        float: right;
+        margin-top: 1%;
+        margin-right: 2%;
+    }
+.exercice{
+        width:100%;
+        height: 100%;
+        margin: auto;
+    }
+.closn{
+        width: 18%;
+        height: 84%;
+        margin-right: 45%;
+        display: flex;
+        margin-top: 1.5%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+#Al,#Fr,#En,#Tr{
+        background-image: url(image/r.png);
+        background-size: 100% 100%;
+        width: 20%;
+        height: 68%;
+        line-height: 1.2em;
+        text-align: center;
+        letter-spacing: 1px;
+        font-family: 'Scheherazade', serif;
+        font-size: 4.5vh;
+        color: #fff;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 4px rgb(124 124 124);
+        cursor: pointer;
+        transition-duration: 2ms;
+    }
+#Al:active{
+        transform: translateY(5px);
+    }
+#En:active{
+        transform: translateY(5px);
+    }
+#Fr:active{
+        transform: translateY(5px);
+    }
+#Tr:active{
+        transform: translateY(5px);
+    }
+    
+#logo{
+        right: 1%;
+        margin-top:2%;
+        animation-name: example;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes example {
+        0% {left:0px; top:0px;}
+        50% { top:10px;}
+        }
+#headline{
+        width: 95%;
+        height: 10%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+    }
+#headline>p{
+        width: 27%;
+        height: 70%;
+        font-family: 'Scheherazade', serif;
+        font-size: 4.5vh;
+        letter-spacing: 1px;
+        color: #04027d;
+        line-height: 2.2em;
+        text-align: center;
+        margin-top: 1%;
+   
+    }
+#b{
+    margin-right: -8%;
+    margin-top: 0.5%;
+    }
+ #c{
+     margin-right: -8%;
+    margin-top: 0.5%;
+    }   
+header{
+    background-image: url(image/bg-haut.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 93%;
+    height: 9%;
+    margin-right: 2%;
+    margin-top: 1%;
+    display: flex;
+}
+.question{
+    width: 97%;
+    height: 70%;
+    font-family: 'Scheherazade', serif;
+    font-size: 5vh;
+    letter-spacing: 1px;
+    color: #f9f9fd;
+    line-height: 1.5em;
+    display: flex;
+    justify-content: space-between;
+
+}
+#b{
+   display: flex;
+}
+#a{
+    margin-right: 2%;
+    margin-top: 0.5%;
+}
+#ltr{
+    font-weight: bold;
+    color:blue;
+    font-size: 6vh;
+}
+main{
+    width: 90%;
+    height: 75%;
+    margin: auto;   
+    
+}
+.base{
+    width: 100%;
+    height: 100%;
+}
+
+.quest{
+    width: 100%;
+    height: 10%;
+    font-family: 'Scheherazade', serif;
+    font-size: 5vh;
+    letter-spacing: 1px;
+    color: #070707;
+    line-height: 3em;margin-right: 5%;
+}
+
+.traduction{
+    margin-top: 1%;
+    font-family: 'Scheherazade', serif;
+    font-size: 4vh;
+    color: #e3007b;
+    line-height: 1.8em;
+    direction: ltr;margin-left: 5%;
+}
+@keyframes mymove {
+    50% {box-shadow:2px 3px 3px 3px rgb(109, 109, 245);
+   border-radius:20px; }
+  }
+#français{
+    display: none;
+}
+#English{
+    display: none;
+}
+#turkish{
+    display: none;
+}
+#germany{
+    display: none;
+}
+
+.part1{
+    width: 80%;
+    height: 25%;
+    margin: auto;
+background-color: #04027d;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.ligne2{
+    width: 60%;
+    height: 20%;
+    margin: auto;
+    justify-content: space-evenly;
+    display: flex;
+   
+}
+.couleur1{
+    background-image: url(image/noir.png);
+    background-size: 100% 100%;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Scheherazade', serif;
+    font-size: 8vh;
+    line-height: 1em;
+    cursor: pointer;
+
+    margin-top: 10%;
+    
+ 
+}
+.couleur2{
+    background-image: url(image/blanc.png);
+    background-size: 100% 100%;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Scheherazade', serif;
+    font-size: 8vh;
+    line-height: 1em;
+    cursor: pointer;
+   
+    margin-top: 10%;
+ 
+}
+.couleur3{
+    background-image: url(image/bleu.png);
+    background-size: 100% 100%;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Scheherazade', serif;
+    font-size: 8vh;
+    line-height: 1em;
+    cursor: pointer;
+   
+    margin-top: 10%;
+ 
+}
+
+.ligne1{
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    display: flex;
+    padding-top: 2%;
+    justify-content: space-evenly;
+
+}
+#carreau{  
+    width: 25%;
+    height: 75%;
+    margin-top: 1.5%;
+    text-align: center;
+    color: black;
+    font-family: 'Scheherazade', serif;
+    font-size: 12vh;
+    line-height: 1.4em;
+}
+#ecouteur{
+    background-image: url(image/haute-parleur.png);
+    background-size: 100% 100%;
+    width: 4%;
+    margin-left: -30%;
+    height: 38%;
+    margin-top: 5%;
+    cursor: pointer;
+    transition-duration: 2ms;
+}
+#ecouteur:active{
+    transform: translateY(5px);
+}
+.right{
+    margin: auto;
+    margin-top: 8%;
+    width: 10%;
+  
+   
+}
+.justifier {
+    background-image: url(image/bg-bas.png);
+    background-size: 100% 100%;
+    width: 96%;
+    margin-top: 2%;
+    height: 9%;
+    font-family: 'Scheherazade', serif;
+    font-size: 5vh;
+    letter-spacing: 1px;
+    color: #f4f4fa;
+    text-align: center;
+    line-height: 1.7em;
+    cursor: pointer;
+    transition-duration: 2ms;
+  
+}
+.justifier:active{
+    transform: translateY(5px);
+}
+
+
+   
+    
+    #carreau{
+        width: 40%;
+        height: 40%;
+    }
+    @keyframes msg{
+        
+        
+            0% { 
+              transform: scale(0.1); 
+              -webkit-transform: scale(0.1);
+              opacity: 0;
+            } 
+          
+            60% { 
+              transform: scale(1.5); 
+              -webkit-transform: scale(1.2);
+              opacity: 1;
+            } 
+          
+            100% { 
+              transform: scale(1.2); 
+              -webkit-transform: scale(1);
+            }
+          }
+    
+
+
+      /* ---------- fin alert css ------ */
+
+        
+     /* Media Query for low resolution  Tablets, Ipads */
+     @media (min-width: 481px) and (max-width: 780px) {
+        #logo {
+            width: 5%;
+            height: 60%;
+            float: right;
+            margin-top: 2%;
+            margin-right: 2%;
+        }
+        #headline>p {
+            width: 46%;
+            height: 70%;
+            font-family: 'Scheherazade', serif;
+            font-size: 4.5vh;
+            letter-spacing: 1px;
+            color: #04027d;
+            line-height: 2.2em;
+            /* text-align: center; */
+            margin-top: 1%;
+        }
+        .closn {
+            width: 21%;
+            height: 84%;
+            margin-right:20%;
+            display: flex;
+            margin-top: 1.5%;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .traduction {
+            margin-top: 1%;
+            font-family: 'Scheherazade', serif;
+            font-size: 4.5vh;
+            color: #e3007b;
+            line-height: 2.8em;
+            direction: ltr;
+            margin-left: 5%;
+        }
+        #ecouteur {
+            background-image: url(image/haute-parleur.png);
+            background-size: 100% 100%;
+            width: 6%;
+            margin-left: -30%;
+            height: 38%;
+            margin-top: 5%;
+            cursor: pointer;
+            transition-duration: 2ms;
+        }
+        .right {
+            margin: auto;
+            margin-top: 11%;
+            width: 10%;
+        }
+    }
+    @media  (max-width: 600px) {
+        #headline>p {
+            width: 46%;
+            height: 70%;
+            font-family: 'Scheherazade', serif;
+            font-size: 3.5vh;
+            letter-spacing: 1px;
+            color: #04027d;
+            line-height: 2.2em;
+            /* text-align: center; */
+            margin-top: 1%;
+        }
+        .ligne2 {
+            width: 72%;
+            height: 18%;
+            margin: auto;
+            justify-content: space-evenly;
+            display: flex;
+        }
+        .closn {
+            width: 25%;
+            height: 84%;
+            margin-right: 16%;
+            display: flex;
+            margin-top: 1.5%;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #carreau {
+            width: 25%;
+            height: 75%;
+            margin-top: 1.5%;
+            text-align: center;
+            color: black;
+            font-family: 'Scheherazade', serif;
+            font-size: 9vh;
+            line-height: 1.4em;
+        }
+        .ligne2 {
+            width: 72%;
+            height: 15%;
+            margin: auto;
+            justify-content: space-evenly;
+            display: flex;
+        }
+        .right {
+            margin: auto;
+            margin-top: 15%;
+            width: 13%;
+        }
+    }
+    @media  (max-width: 480px) {
+        #logo {
+            width: 7%;
+            height: 60%;
+            float: right;
+            margin-top: 1%;
+            margin-right: 2%;
+        }
+        #headline>p {
+            width: 47%;
+            height: 70%;
+            font-family: 'Scheherazade', serif;
+            font-size: 3.5vh;
+            letter-spacing: 1px;
+            color: #04027d;
+            line-height: 2.2em;
+            /* text-align: center; */
+            margin-top: 1%;
+        }
+        .closn {
+            width: 31%;
+            height: 84%;
+            margin-right: 6%;
+            display: flex;
+            margin-top: 1.5%;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .traduction {
+            margin-top: 1%;
+            font-family: 'Scheherazade', serif;
+            font-size: 4.5vh;
+            color: #e3007b;
+            line-height: 2.8em;
+            direction: ltr;
+            margin-left: 5%;
+        }
+        #ecouteur {
+            background-image: url(image/haute-parleur.png);
+            background-size: 100% 100%;
+            width: 7%;
+            margin-left: -30%;
+            height: 38%;
+            margin-top: 7%;
+            cursor: pointer;
+            transition-duration: 2ms;
+        }
+    }
+    @media  (max-width: 350px) {
+        #logo {
+            width: 9%;
+            height: 60%;
+            float: right;
+            margin-top: 3%;
+            margin-right: 2%;
+        }
+        #headline>p {
+            width: 47%;
+            height: 70%;
+            font-family: 'Scheherazade', serif;
+            font-size: 2.5vh;
+            letter-spacing: 1px;
+            color: #04027d;
+            line-height: 2.2em;
+            /* text-align: center; */
+            margin-top: 1%;
+        }
+        .closn {
+            width: 37%;
+            height: 84%;
+            margin-right: 0%;
+            display: flex;
+            margin-top: 1.5%;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .question {
+            width: 97%;
+            height: 70%;
+            font-family: 'Scheherazade', serif;
+            font-size: 4vh;
+            letter-spacing: 1px;
+            color: #f9f9fd;
+            line-height: 2.5em;
+            display: flex;
+            justify-content: space-between;
+        }
+        .quest {
+            width: 100%;
+            height: 10%;
+            font-family: 'Scheherazade', serif;
+            font-size: 4vh;
+            letter-spacing: 1px;
+            color: #070707;
+            line-height: 3em;
+            margin-right: 5%;
+        }
+        .traduction {
+            margin-top: 1%;
+            font-family: 'Scheherazade', serif;
+            font-size: 3.2vh;
+            color: #e3007b;
+            line-height: 2.8em;
+            direction: ltr;
+            margin-left: 5%;
+        }
+        #ecouteur {
+            background-image: url(image/haute-parleur.png);
+            background-size: 100% 100%;
+            width: 11%;
+            margin-left: -25%;
+            height: 38%;
+            margin-top: 9%;
+            cursor: pointer;
+            transition-duration: 2ms;
+        }
+        .ligne2 {
+            width: 76%;
+            height: 12%;
+            margin: auto;
+            justify-content: space-evenly;
+            display: flex;
+        }
+        .right {
+            margin: auto;
+            margin-top: 22%;
+            width: 22%;
+        }
+       
+    }

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title> الرَّوْضَة </title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Scheherazade&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <audio id="bravo">
+        <source src="audio/bravo.mp3">
+    </audio>
+    <audio id="faux">
+        <source src="audio/faux.mp3">
+    </audio>
+    <div class="exercice">
+        <div id="headline">
+            <img id="logo" src="image/Layer-3.png">
+            <p>المركز العربي للخدمات التربوية- كندا</p>
+            <div class="closn">
+                <div id="Al" onclick="myFunc('germany')">Al</div>
+                <div id="Tr" onclick="myFunc('turkish')">Tr</div>
+                <div id="Fr" onclick="myFunc('français')">Fr</div>
+                <div id="En" onclick="myFunc('English')">En</div>
+            </div>
+        </div>
+
+        <header>
+            <div class="question">
+                <div id="a"> الْأَسَاس:الرَّوْضَة </div>
+                <div id="b">حرف (<div id="ltr">&nbsp;م&nbsp;</div>) </div>
+                <div id="c"> ص 100 </div>
+            </div>
+        </header>
+        <main>
+
+            <div class="quest"> 1.أَضْغَطُ عَلَى الْحَرْفِ  (<span id="ltr">&nbsp;م&nbsp;</span>):
+            </div>
+            <div class="traduction">
+                <div>1 . Je clique sur la lettre (<span id="ltr">&nbsp;م&nbsp;</span>): </div>
+                <div id="English">1 . I click on the letter (<span id="ltr">&nbsp;م&nbsp;</span>):</div>
+                <div id="français">1 . Je clique sur la lettre (<span id="ltr">&nbsp;م&nbsp;</span>):</div>
+                <div id="turkish">1 . harfine tıklıyorum (<span id="ltr">&nbsp;م&nbsp;</span>):</div>
+                <div id="germany">1 . Ich klicke auf den Buchstaben (<span id="ltr">&nbsp;م&nbsp;</span>):</div>
+            </div>
+            <div class="part">
+                <div  class="ligne1">
+                    <div class="couleur1"  id="let1"  onclick="changeColor('let1');">ش  </div>
+                    <div class="couleur2"  id="let2"  onclick="changeColor('let2');" >م  </div>
+                    <div class="couleur3"  id="let3"  onclick="changeColor('let3');" >س  </div>
+                    <div class="couleur4"  id="let4"  onclick="changeColor('let4');" >م  </div>
+                    <div class="couleur5"  id="let5"  onclick="changeColor('let5');"  >ذ </div>
+                </div>
+                <div  class="ligne2">
+                    <div  class="couleur6" id="let6"  onclick="changeColor('let6');">م  </div>
+                    <div  class="couleur7" id="let7"  onclick="changeColor('let7');">م  </div>
+                    <div  class="couleur8" id="let8"  onclick="changeColor('let8');" >ص  </div>
+                    <div  class="couleur9" id="let9"  onclick="changeColor('let9');" >م  </div>
+                    <div  class="couleur10" id="let10"  onclick="changeColor('let10');" >ض</div>
+                   
+                </div>
+            </div>
+
+
+            <div class="right">
+
+                <div class="justifier" onclick='verification()'>أتأكّد</div>
+            </div>
+
+
+        </main>
+    </div>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

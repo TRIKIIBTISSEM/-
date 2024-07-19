@@ -1,0 +1,679 @@
+html,body{
+    height:100%;
+    padding:0;
+    margin: auto;;
+   }
+body {
+    height: 95%;
+    
+    background-repeat: no-repeat;
+    }
+#logo{  
+ 
+    width: 3%;
+    height: 60%;
+    float: right;
+    margin-top:1%;
+    margin-right:7%;
+
+}
+#headline{
+   
+    width:95%;
+    height: 10%;
+    margin-top: 1%;
+    margin-right: 2%;
+
+}
+#headline>p {
+    width: 40%;
+    height: 70%;
+    font-family: 'Scheherazade', serif;
+    font-size: 4.5vh;
+    letter-spacing: 1px;
+    color: #04027d;
+    line-height: 2.2em;
+    text-align: center;
+    margin-top: 1%;
+    margin-right: -4%;
+}
+header{
+    background-image: url(image/bghaut.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 90%;
+    height: 8%;
+    margin-right: 5%;
+    margin-top: 1%;
+    display: flex;
+   
+}
+
+.question{  
+    font-family: 'Scheherazade', serif;
+    width: 97%;
+    height: 70%;
+    font-size: 5vh;
+    display: flex;
+    color:white;
+    line-height: 1.4em;
+    justify-content: space-between;
+    letter-spacing: 1px;
+}
+main{
+    width: 90%;
+    height: 75%;
+    margin: auto;  
+ 
+}
+#ph1{
+    margin-right: 2%;
+}
+
+
+
+.quest1{    
+    font-family: 'Scheherazade', serif;
+    width: 70%;
+    height: 9%;
+    font-size: 5vh;
+    color:black;
+    line-height: 1.8em;
+    justify-content: space-between;
+    letter-spacing: 1px;
+    margin-top: 1%;
+    margin-right: 5%;
+}
+#imgQuestion{
+    width: 3%;
+    height: 40%;
+}
+#imgQuestion2 {
+    width: 2%;
+    height: 2%;
+}
+
+.part{  
+    
+   width: 90%;
+   height: 70%;
+   margin: auto;
+  
+}
+.part1{  
+    
+    width: 90%;
+    height: 70%;
+    margin: auto;
+    padding-top: 1%;
+
+ }
+#color{
+    color: blue;
+    font-weight: bold;
+    font-size: 6vh;
+}
+.contenue{
+    width: 90%;
+    height: 70%;
+    margin: auto;
+}
+.image1{
+    background-image: url(image/g.png);
+    background-size: 100% 100%;
+    border: 1px rgb(245, 248, 247) solid;
+    width: 10%;
+    height: 90%; 
+    margin-right: 10%;
+    margin-top: 2%;
+    cursor: pointer;
+}
+
+.image2{
+    background-image: url(image/h.png);
+    background-size: 100% 100%;
+    border: 1px rgb(245, 248, 247) solid;
+    width: 10%;
+    height: 90%; 
+    margin-right: 10%;
+    margin-top: 2%; 
+    cursor: pointer;
+}
+
+.image3{
+    background-image: url(image/k.png);
+    background-size: 100% 100%;
+    width: 10%;
+    border: 1px rgb(245, 248, 247) solid;
+    height: 90%;  
+    margin-right: 10%;
+    margin-top: 2%;
+    cursor: pointer;
+}
+
+
+.ligne1 {
+   
+    justify-content: space-evenly;
+    width: 90%;
+    height: 75%;
+    display: flex;
+    margin-top: 3%;
+   
+}
+.ligne2 {
+
+    line-height: 0.5em;
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.mot1 {
+    background-image: url(image/k.png);
+    background-size: 100% 100%;
+    border: 1px rgb(245, 248, 247) solid;
+    width: 10%;
+    height: 90%;
+    
+    margin-left: 10%;
+    font-family: 'Scheherazade', serif;
+    font-size: 6vh;
+    color: black;
+    line-height: 1.8em;
+    justify-content: space-between;
+    letter-spacing: 1px;
+    text-align: center;
+  
+    cursor: pointer;
+}
+.mot2 {
+    background-image: url(image/h.png);
+    background-size: 100% 100%;
+    border: 1px rgb(245, 248, 247) solid;
+    width: 10%;
+    height: 90%;
+    
+    margin-left: 10%;
+    font-family: 'Scheherazade', serif;
+    font-size: 6vh;
+    color: black;
+    line-height: 1.8em;
+    justify-content: space-between;
+    letter-spacing: 1px;
+    text-align: center;
+  
+    cursor: pointer;
+}
+.mot3 {
+    background-image: url(image/g.png);
+    background-size: 100% 100%;
+    border: 1px rgb(245, 248, 247) solid;
+    width: 10%;
+    height: 90%;
+    
+    margin-left: 10%;
+    font-family: 'Scheherazade', serif;
+    font-size: 6vh;
+    color: black;
+    line-height: 1.8em;
+    justify-content: space-between;
+    letter-spacing: 1px;
+    text-align: center;
+  
+    cursor: pointer;
+}
+#correct1{
+    border: 4px rgb(107, 32, 228) solid;
+}
+
+#correct2{
+    border: 4px rgb(228, 32, 218) solid;
+}
+#correct3{
+    border: 4px rgb(228, 78, 32) solid;
+}
+
+.right{
+margin: auto;
+width: 10%;
+height: 9%;
+display: flex;
+ margin-top: -3%;
+ cursor: pointer;
+}
+
+.justifier {
+background-image: url(image/bgbas.png);
+background-size: 100% 100%;
+width: 96%;
+
+height: 100%;
+font-family: 'Scheherazade', serif;
+font-size: 5vh;
+letter-spacing: 1px;
+color: #f4f4fa;
+text-align: center;
+line-height: 1.7em;
+
+transition-duration: 2ms;
+}
+.justifier:active{
+    transform: translateY(5px);
+}
+
+/* fin footer*/
+
+   /**-----traduction css**/
+   .traduction{
+    margin-top: 1%;
+    font-family: 'Scheherazade', serif;
+    font-size: 4vh;
+    color: #e3007b;
+    line-height: 1.8em;
+    direction: ltr;
+    margin-left: 5%;
+}
+@keyframes mymove {
+    50% {box-shadow:2px 3px 3px 3px rgb(109, 109, 245);
+   border-radius:20px; }
+  }
+
+#français{
+    display: none;
+}
+#English{
+    display: none;
+}
+#turkish{
+    display: none;
+}
+#germany{
+    display: none;
+}
+.closn{
+    width: 18%;
+    height: 84%;
+    
+    display: flex;
+    margin-right: 75%;
+    margin-top: -5%;
+    
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+#Al,#Fr,#En,#Tr{
+    background-image: url(image/r.png);
+    background-size: 100% 100%;
+    width: 20%;
+    height: 68%;
+    line-height: 1.5em;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: 'Scheherazade', serif;
+    font-size: 4vh;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px rgb(124 124 124);
+    cursor: pointer;
+    transition-duration: 2ms;
+}
+#Al:active{
+    transform: translateY(5px);
+}
+#En:active{
+    transform: translateY(5px);
+}
+#Fr:active{
+    transform: translateY(5px);
+}
+#Tr:active{
+    transform: translateY(5px);
+}
+@media (min-width: 481px) and (max-width: 780px) {
+    .closn {
+        width: 18%;
+        height: 84%;
+        display: flex;
+        margin-right: 75%;
+        margin-top: -7%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #logo {
+        width: 5%;
+        height: 60%;
+        float: right;
+        margin-top: 1%;
+        margin-right: 5%;
+    }
+    #headline>p {
+        width: 52%;
+        height: 70%;
+        font-family: 'Scheherazade', serif;
+        font-size: 4.5vh;
+        letter-spacing: 1px;
+        color: #04027d;
+        line-height: 2.2em;
+        text-align: center;
+        margin-top: 1%;
+        margin-right: -4%;
+    }
+   
+}
+@media  (max-width: 600px) {
+    .closn {
+        width: 24%;
+        height: 84%;
+        display: flex;
+        margin-right: 69%;
+        margin-top: -10%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #headline>p {
+        width: 68%;
+        height: 70%;
+        font-family: 'Scheherazade', serif;
+        font-size: 4.5vh;
+        letter-spacing: 1px;
+        color: #04027d;
+        line-height: 2.2em;
+        text-align: center;
+        margin-top: 1%;
+        margin-right: -4%;
+    }
+    #logo {
+        width: 6%;
+        height: 60%;
+        float: right;
+        margin-top: 2%;
+        margin-right: 5%;
+    }
+    .quest1 {
+        font-family: 'Scheherazade', serif;
+        width: 70%;
+        height: 9%;
+        font-size: 5vh;
+        color: black;
+        line-height: 2.8em;
+        justify-content: space-between;
+        letter-spacing: 1px;
+        margin-top: 1%;
+        margin-right: 5%;
+    }
+    .traduction {
+        margin-top: 1%;
+        font-family: 'Scheherazade', serif;
+        font-size: 4vh;
+        color: #e3007b;
+        line-height: 3.8em;
+        direction: ltr;
+        margin-left: 5%;
+    }
+  
+}
+@media  (max-width: 480px) {
+    .closn {
+        width: 32%;
+        height: 84%;
+        display: flex;
+        margin-right: 61%;
+        margin-top: -12%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #headline>p {
+        width: 66%;
+        height: 70%;
+        font-family: 'Scheherazade', serif;
+        font-size: 3.5vh;
+        letter-spacing: 1px;
+        color: #04027d;
+        line-height: 2.2em;
+        text-align: center;
+        margin-top: 1%;
+        margin-right: -4%;
+    }
+    #logo {
+        width: 7%;
+        height: 60%;
+        float: right;
+        margin-top: 1%;
+        margin-right: 3%;
+    }
+    .quest1 {
+        font-family: 'Scheherazade', serif;
+        width: 84%;
+        height: 9%;
+        font-size: 4vh;
+        color: black;
+        line-height: 1.8em;
+        justify-content: space-between;
+        letter-spacing: 1px;
+        margin-top: 1%;
+        margin-right: 5%;
+    }
+    .traduction {
+        margin-top: 1%;
+        font-family: 'Scheherazade', serif;
+        font-size: 3vh;
+        color: #e3007b;
+        line-height: 3.8em;
+        direction: ltr;
+        margin-left: 5%;
+    }
+    .ligne1 {
+        justify-content: space-evenly;
+        width: 100%;
+        height: 75%;
+        display: flex;
+        margin-top: 3%;
+    }
+    .ligne2 {
+        line-height: 0.5em;
+        width: 100%;
+        height: 80%;
+        display: flex;
+        justify-content: space-around;
+        justify-content: space-evenly;
+        cursor: pointer;
+    }
+    .right {
+        margin: auto;
+        width: 16%;
+        height: 9%;
+        display: flex;
+        margin-top: -3%;
+    }
+}
+@media  (max-width: 350px) {
+    .closn {
+        width: 34%;
+        height: 84%;
+        display: flex;
+        margin-right: 61%;
+        margin-top: -15%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #headline>p {
+        width: 65%;
+        height: 70%;
+        font-family: 'Scheherazade', serif;
+        font-size: 2.5vh;
+        letter-spacing: 1px;
+        color: #04027d;
+        line-height: 3.2em;
+        text-align: center;
+        margin-top: 1%;
+        margin-right: -4%;
+    }
+    #headline>p {
+        width: 63%;
+        height: 70%;
+        font-family: 'Scheherazade', serif;
+        font-size: 2.5vh;
+        letter-spacing: 1px;
+        color: #04027d;
+        line-height: 2.2em;
+        text-align: center;
+        margin-top: 1%;
+        margin-right: -4%;
+    }
+    #logo {
+        width: 8%;
+        height: 60%;
+        float: right;
+        margin-top: 1%;
+        margin-right: 2%;
+    }
+    .question {
+        font-family: 'Scheherazade', serif;
+        width: 97%;
+        height: 70%;
+        font-size: 4vh;
+        display: flex;
+        color: white;
+        line-height: 2.4em;
+        justify-content: space-between;
+        letter-spacing: 1px;
+    }
+    #color {
+        color: blue;
+        font-weight: bold;
+        font-size: 4vh;
+    }
+    .quest1 {
+        font-family: 'Scheherazade', serif;
+        width: 79%;
+        height: 9%;
+        font-size: 3vh;
+        color: black;
+        line-height: 2.8em;
+        justify-content: space-between;
+        letter-spacing: 1px;
+        margin-top: 1%;
+        margin-right: 5%;
+    }
+    .traduction {
+        margin-top: 1%;
+        font-family: 'Scheherazade', serif;
+        font-size: 3vh;
+        color: #e3007b;
+        line-height: 1.8em;
+        direction: ltr;
+        margin-left: 5%;
+    }
+    .part {
+        width: 100%;
+        height: 70%;
+        margin: auto;
+    }
+    .ligne1 {
+        justify-content: space-evenly;
+        width: 100%;
+        height: 75%;
+        display: flex;
+        margin-top: 3%;
+    }
+    .ligne2 {
+        line-height: 0.5em;
+        width: 100%;
+        height: 80%;
+        display: flex;
+        justify-content: space-around;
+        justify-content: space-evenly;
+        cursor: pointer;
+    }
+    .mot1 {
+        background-image: url(image/k.png);
+        background-size: 100% 100%;
+        border: 1px rgb(245, 248, 247) solid;
+        width: 14%;
+        height: 90%;
+        /* margin-left: 10%; */
+        font-family: 'Scheherazade', serif;
+        font-size: 6vh;
+        color: black;
+        line-height: 1.8em;
+        justify-content: space-between;
+        letter-spacing: 1px;
+        text-align: center;
+        cursor: pointer;
+    }
+    .mot2 {
+        background-image: url(image/h.png);
+        background-size: 100% 100%;
+        border: 1px rgb(245, 248, 247) solid;
+        width: 10%;
+        height: 90%;
+        /* margin-left: 10%; */
+        font-family: 'Scheherazade', serif;
+        font-size: 14vh;
+        color: black;
+        line-height: 1.8em;
+        justify-content: space-between;
+        letter-spacing: 1px;
+        text-align: center;
+        cursor: pointer;
+    }
+    .image1 {
+        background-image: url(image/g.png);
+        background-size: 100% 100%;
+        border: 1px rgb(245, 248, 247) solid;
+        width: 14%;
+        height: 90%;
+        /* margin-right: 10%; */
+        margin-top: 2%;
+        cursor: pointer;
+    }
+    .image2 {
+        background-image: url(image/h.png);
+        background-size: 100% 100%;
+        border: 1px rgb(245, 248, 247) solid;
+        width: 14%;
+        height: 90%;
+        /* margin-right: 10%; */
+        margin-top: 2%;
+        cursor: pointer;
+    }
+    .image3 {
+        background-image: url(image/k.png);
+        background-size: 100% 100%;
+        width: 14%;
+        border: 1px rgb(245, 248, 247) solid;
+        height: 90%;
+        /* margin-right: 10%; */
+        margin-top: 2%;
+        cursor: pointer;
+    }
+    .mot3 {
+        background-image: url(image/g.png);
+        background-size: 100% 100%;
+        border: 1px rgb(245, 248, 247) solid;
+        width: 10%;
+        height: 90%;
+        /* margin-left: 10%; */
+        font-family: 'Scheherazade', serif;
+        font-size: 6vh;
+        color: black;
+        line-height: 1.8em;
+        justify-content: space-between;
+        letter-spacing: 1px;
+        text-align: center;
+        cursor: pointer;
+    }
+    .right {
+        margin: auto;
+        width: 23%;
+        height: 9%;
+        display: flex;
+        margin-top: -3%;
+    }
+}

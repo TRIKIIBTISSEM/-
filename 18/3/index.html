@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title> الرَّوْضَة </title>
+    <link href="https://fonts.googleapis.com/css2?family=Scheherazade&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+
+
+</head>
+
+<body>
+    <audio id="bravo">
+        <source src="audio/bravo.mp3">
+    </audio>
+    <audio id="faux">
+        <source src="audio/faux.mp3">
+    </audio>
+    <audio id="oiseau">
+        <source src="audio/oiseau.mp3">
+    </audio>
+   
+
+
+    <div id="headline">
+        <img id="logo" src="image/logo.png">
+        <p>المركز العربي للخدمات التربوية- كندا</p>
+        <div class="closn">
+            <div id="Al" onclick="myFunc('germany')">Al</div>
+            <div id="Tr" onclick="myFunc('turkish')">Tr</div>
+            <div id="Fr" onclick="myFunc('français')">Fr</div>
+            <div id="En" onclick="myFunc('English')">En</div>
+        </div>
+    </div>
+
+    <header>
+        <div class="question">
+            <div id="a"> الْأَسَاس:الرَّوْضَة </div>
+            <div id="b">حرف (<div id="ltr">&nbsp;ع&nbsp;</div>) </div>
+            <div id="c" >ص77</div>
+        </div>
+    </header>
+
+
+
+
+    <main>
+
+        <div class="quest"> 3 . أَسْتَمِعُ ثُمَّ أَضْغَطُ عَلَى الْمَكَان الّذِي يَعِيشُ فِيهِ الْعُصْفُورِ :
+            </div>
+
+        <div class="traduction">
+            <div>3 . J'écoute, puis je clique sur l'endroit où vit l'oiseau :</div>
+            <div id="English">3 . I listen then i click on where the bird lives :</div>
+            <div id="français">3 . J'écoute puis j'appuie sur l'endroit où habite l'oiseau :</div>
+            <div id="turkish">3 . Dinliyorum, ve kuşun nerede yaşadığını tıklıyorum :</div>
+            <div id="germany">3 . Ich höre zu klicke auf wo der vogel lebt :</div>
+        </div>
+
+        <div class="ex">
+
+            <div class="pictures">
+                <div class="pic" id="im1" onclick="myFunction('im1')"></div>
+                <div class="pic" id="im2" onclick="myFunction('im2')"></div>
+                <div class="pic" id="im3" onclick="myFunction('im3')"></div>
+               
+            
+            </div>
+
+            <div class="words">
+               <div class="son" id="s1"></div>
+                <div class="mot" id="m1" >عُصْفُورٌ</div> 
+           
+            </div>
+
+        
+
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="verifBouton">أتأكّد</div>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

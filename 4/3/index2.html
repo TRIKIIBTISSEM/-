@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+        الرَّوْضَة
+    </title>
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Scheherazade&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+    <!--son general-->
+    <audio id="bravo">
+        <source src="audio/bravo.mp3" type="audio/mp3">
+    </audio>
+    <audio id="faux">
+        <source src="audio/faux.mp3" type="audio/mp3">
+    </audio>
+    <audio id="image1">
+        <source src="audio/livre.mp3" type="audio/mp3">
+    </audio>
+    <audio id="image2">
+        <source src="audio/crayon.mp3" type="audio/mp3">
+    </audio>
+    <audio id="image3">
+        <source src="audio/maison.mp3" type="audio/mp3">
+    </audio>
+    <audio id="image4">
+        <source src="audio/aiguiseur.mp3" type="audio/mp3">
+    </audio>
+
+    <div id="headline">
+        <p>المركز العربي للخدمات التربوية- كندا </p>
+        <div class="closn">
+            <div id="Al" onclick="translateText('GR')">Al</div>
+            <div id="Tr" onclick="translateText('TR')">Tr</div>
+            <div id="Fr" onclick="translateText('FR')">Fr</div>
+            <div id="En" onclick="translateText('EN')">En</div>
+        </div>
+
+    </div>
+    <img id="logo" src="image/Layer-3.png">
+    <header>
+        <div class="question">
+            <div id="ph1"> الْأَسَاس:الرَّوْضَة</div>
+            <div id="ph2"> حرف ( <span id="motcolorer">ث</span> ) </div>
+            <div id="ph3"> ص 21 </div>
+        </div>
+    </header>
+    <main>
+        <div class="base">
+            <div class="quest1">3 . أَسْتَمِعُ، ثُمَّ أَضَعُ الْعَلَامَةَ ( <img  id="imgQuestion2" src="image/Layer-8.png"> ) تَحْتَ الْعُنْصَرِ الْمُخْتَلِفِ:
+            </div>
+
+            <div class="traduction">
+                <div id="info">3 . J'écoute, puis je mets ( <img  id="imgQuestion2" src="image/Layer-8.png"> ) sous l'élément différent:
+
+                </div>
+            </div>
+
+            <div id="page2" class="part" style="display: block;">
+                <div class="contenu">
+
+                    <div class="mots1">
+                        <div class="son2"  id="s1"></div> 
+                        <div class="son2"  id="s2"></div>
+                        <div class="son2"  id="s3" ></div>
+                        <div class="son2"  id="s4"></div>
+                    </div>
+                    <div class="mots">
+                      
+                        <div id="s5" class="image1"></div>
+                        <div id="s6" class="image2"></div>
+                        <div id="s7" class="image3"></div>
+                        <div id="s8" class="image4"> </div>
+                    </div>
+                
+
+                    <div class="mots2">
+                        <div class="mot" id="v1"><img id="ticres1" src="image/Layer-8.png">
+                            <div class="tic"></div>
+                        </div>
+                        <div class="mot" id="v2"><img id="ticres2" src="image/Layer-8.png">
+                            <div class="tic"></div>
+                        </div>
+                        <div class="mot" id="v3"><img id="ticres3" src="image/Layer-8.png">
+                            <div class="tic"></div>
+                        </div>
+                        <div class="mot" id="v4"><img id="ticres4" src="image/Layer-8.png">
+                            <div class="tic"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+           
+
+    </main>
+    <div class="bas">
+
+
+        <div class="right">
+           
+            <div class="justifier" onclick="verification()">أتأكّد</div>
+        </div>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js">
+        </script>
+      
+
+        <script src="script2.js"></script>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>  الرَّوْضَة 
+
+    </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Scheherazade&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <audio id="repeter">
+        <source src="audio/faux.mp3" type="audio/mp3">
+    </audio>
+    <audio id="bravo">
+        <source src="audio/bravo.mp3" type="audio/mp3">
+    </audio>
+    
+    <div class="exercice">
+        <div id="headline">
+            <img id="logo" src="image/logo.png">
+            <p>المركز العربي للخدمات التربوية- كندا </p>
+            <div class="closn">
+                <div id="Al" onclick="translateText('GR')">Al</div>
+                <div id="Tr" onclick="translateText('TR')">Tr</div>
+                <div id="Fr" onclick="translateText('FR')">Fr</div>
+                <div id="En" onclick="translateText('EN')">En</div>
+            </div>
+        </div>
+
+        <header>
+            <div class="question">
+                <div id="a">الْأَسَاس:الرَّوْضَة</div>
+                <div id="b">حرف ( <span id="color">ت</span> ) </div>
+                <div id="c"> ص 17 </div>
+            </div>
+        </header>
+        <main>
+            <div class="base" id="exerciceone">
+                <div class="quest">3. أَضْغَطُ بِنَفْسِ اللَّوْنِ عَلَى كُلِّ عُنْصُرَيْنِ مُتَنَاسِبَيْنِ:</div>
+              
+                <div class="traduction">
+                    <div id="info">3 . Je clique avec la même couleur sur chacun des deux éléments proportionnels :</div>
+                </div>
+                <div class="ligne1">
+                    <div class="sousligne" id="ltr1" onclick="onSelect('ltr1')"></div>
+                    <div class="sousligne" id="ltr2" onclick="onSelect('ltr2')"></div>
+                    <div class="sousligne" id="ltr3" onclick="onSelect('ltr3')"></div>
+                   
+                </div>
+                <div class="ligne2">
+                    <div class="sousligne" id="ltr4" onclick="onSelect('ltr4')"></div>
+                    <div class="sousligne" id="ltr5" onclick="onSelect('ltr5')"></div>
+                    <div class="sousligne" id="ltr6" onclick="onSelect('ltr6')"></div>
+           
+                </div>
+
+            </div>
+            <div id="answers" style="display: none;">
+                <div class="quest">3 . أَضْغَطُ بِنَفْسِ اللَّوْنِ عَلَى كُلِّ عُنْصُرَيْنِ مُتَنَاسِبَيْنِ:</div>
+              
+                <div class="traduction">
+                    <div id="info">3 . Je clique de la même couleur sur chacun des deux éléments proportionnels :</div>
+                </div>
+                <div class="lign1"> 
+                    <div id="correct1"></div>
+                    <div id="correct2"></div>
+                    <div id="correct3"></div>
+                    
+                </div>
+                <div class="lign2">
+                    <div id="correct4" ></div>
+                    <div id="correct5"></div>
+                    <div id="correct6"></div>
+                
+                </div>
+            </div>
+          
+        </main>
+            <div class="right">
+
+                <div class="justifier" onclick="verification()">أتأكّد</div>
+            </div>
+    
+        </div>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+        <script type="text/javascript"
+            src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+    </div>
+
+    <script src="script.js"></script>
+<script src="js.js"></script>
+</body>
+
+</html>
